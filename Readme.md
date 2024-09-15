@@ -1,7 +1,3 @@
-Here’s a sample README file for your blood cell detection project using Faster R-CNN:
-
----
-
 # Blood Cell Detection Using Faster R-CNN
 
 This repository contains the implementation of a blood cell detection model using Faster R-CNN. The model is designed to detect and classify different types of blood cells in microscopic images.
