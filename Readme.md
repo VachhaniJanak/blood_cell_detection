@@ -1,6 +1,6 @@
 # Blood Cell Detection Using Faster R-CNN
 
-This repository contains the implementation of a blood cell detection model using Faster R-CNN. The model is designed to detect and classify different types of blood cells in microscopic images.
+This repository contains the implementation of a blood cell detection model using Faster R-CNN. The model is designed to detect and classify three types of blood cells in microscopic images.
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ The model is based on the Faster R-CNN architecture, which consists of:
 You can use the pre-trained model for inference on new images:
 
 ```bash
-python detect.py "/path/to/image.jpg" "/path/to/model.pth"
+python detect.py "/path/to/source_image.jpg" "/path/to/destination_image.jpg"
 ```
 
 ### Training the Model
